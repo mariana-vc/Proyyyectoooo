@@ -16,6 +16,7 @@ public class holiii {
         
         //Este es el arreglo que vas a usar Flagui
         int[] numeros = {4,1,19,30};
+        System.out.print(MetodoSencillo(numeros));
         
     }
     
