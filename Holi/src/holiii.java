@@ -28,8 +28,10 @@ public class holiii {
          
          int mx = x[0];
          
-         for (int i=0;  i<x.length; i++){
+         for (int i=1;  i<x.length; i++){
+             
              if (x[i]>mx){
+                 
                  mx = x[i];
              }
          }
