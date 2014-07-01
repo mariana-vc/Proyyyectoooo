@@ -12,7 +12,11 @@ public class holiii {
         System.out.print("HOli enriqueee");
         String nombre = JOptionPane.showInputDialog("Cual es tu nombre? ");
         ImprimirNombre(nombre);
-        System.out.println("La señorita mariana");        
+        System.out.println("La señorita mariana");
+        
+        //Este es el arreglo que vas a usar Flagui
+        int[] numeros = {4,1,19,30};
+        
     }
     
     public static void ImprimirNombre(String nombre){
