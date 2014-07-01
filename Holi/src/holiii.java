@@ -22,4 +22,16 @@ public class holiii {
     public static void ImprimirNombre(String nombre){
         System.out.println(nombre);
     }
+    
+     public static int MetodoSencillo (int[] x){
+         
+         int mx = x[0];
+         
+         for (int i=0;  i<x.length; i++){
+             if (x[i]>mx){
+                 mx = x[i];
+             }
+         }
+         return mx;
+     }
 }
